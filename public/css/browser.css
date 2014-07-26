@@ -1,0 +1,118 @@
+body {
+  color: grey;
+  font-size: 1em;
+  padding: 0 4px;
+  background: url(../img/spekld-blue-bg.png) repeat;
+}
+#heading {
+  padding: 0.5em;
+  text-align: center;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+#heading h1,
+#heading h3 {
+  font-weight: lighter;
+}
+#heading h1 {
+  color: black;
+  font-size: 2em;
+}
+#heading h3 {
+  color: grey;
+  font-size: 1.3em;
+}
+#heading h3 span.old {
+  color: brown;
+  font-weight: bolder;
+}
+#heading hr {
+  color: grey;
+  outline: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#main {
+  text-align: center;
+  font-size: 1.1em;
+  min-width: 90%;
+  margin-top: 1.4em;
+  margin-bottom: 2em;
+}
+#main .browser-logo {
+  float: left;
+}
+#main p {
+  text-align: left;
+  margin-left: 8em;
+}
+#main .box {
+  color: white;
+  font-weight: lighter;
+  padding: 1em 1em 0 1em;
+  border-radius: 8px;
+  background: url(../img/bg-em.png) repeat;
+}
+#alternates {
+  text-align: center;
+  min-width: 80%;
+}
+#alternates #or {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+#alternates .box a {
+  color: grey;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+#alternates .box:hover {
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#alternates .box h5 {
+  font-size: 1.5em;
+  margin: 0.6em 0;
+}
+#alternates .box p {
+  margin: 1em 0.5em;
+}
+#alternates .box .button-secondary {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #42b8dd;
+  margin-bottom: 1em;
+}
+#alternates .box .button-secondary:hover {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  background: rgba(66, 184, 221, 0.8);
+}
+#footer {
+  margin-top: 3em;
+  text-align: center;
+  padding: 0.5em 3em;
+}
+.browser-logo {
+  width: 125px;
+  height: 135px;
+  margin: 0 auto 20px;
+  background: url(../img/browser-logos.png) no-repeat;
+}
+.browser-logo#chrome {
+  background-position: 0 0;
+}
+.browser-logo#firefox {
+  background-position: -125px 0;
+}
+.browser-logo#opera {
+  background-position: -250px 0;
+}
+.browser-logo#safari {
+  background-position: -375px 0;
+}
+.browser-logo#ie {
+  background-position: -500px 0;
+}
